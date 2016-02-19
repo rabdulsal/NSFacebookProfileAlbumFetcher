@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'NSFacebookProfileAlbumFetcher_Example', :exclusive => true do
+  pod 'NSFacebookProfileAlbumFetcher', :path => '../'
+end
+
+target 'NSFacebookProfileAlbumFetcher_Tests', :exclusive => true do
+  pod 'NSFacebookProfileAlbumFetcher', :path => '../'
+
+  pod 'Kiwi'
+end
